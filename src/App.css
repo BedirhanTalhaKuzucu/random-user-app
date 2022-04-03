@@ -1,0 +1,51 @@
+.cardContainer{
+  height: 100vh;
+  background-color: rgb(129, 156, 155);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.card{
+  margin: auto;
+  width: 35rem;
+  height: 35rem;
+  background-image: linear-gradient(to bottom right, rgb(89, 191, 223), rgb(223, 189, 189));
+  border-radius: 10px;
+  padding: 3rem;
+  box-shadow: 5px 10px 8px 10px #888888;
+  
+}
+
+.card-data{
+  margin-top: 0.5rem;
+
+}
+
+.lasts-card{ 
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.buttonContainer{
+  margin: auto;
+}
+
+.button{
+  display: block;
+  margin: 2rem auto;
+  width: 10rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: brown;
+  color: aliceblue;
+  
+}
+
+.image{
+  border-radius: 10rem;
+}
